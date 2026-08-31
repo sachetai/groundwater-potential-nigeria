@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python environments
+venv/
+env/
+.venv/
+miniconda3/
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+.aws/
+
+# Large geospatial / ML data
+*.tif
+*.tiff
+*.nc
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+
+# Generated outputs
+output/
+outputs/
+results/
+final_models/
+work_*/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# System/editor
+.DS_Store
+.vscode/
+.idea/
